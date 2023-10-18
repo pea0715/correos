@@ -1,0 +1,35 @@
+Pasos para ejecutar el código del servicio de correo:
+
+1. Asegúrate de tener Node.js instalado en tu máquina. Puedes descargarlo de [nodejs.org](https://nodejs.org/).
+
+2. Crea un nuevo directorio para tu proyecto y guarda el código en un archivo llamado `mailServiceExample.js`.
+
+3. Abre una terminal en el directorio de tu proyecto.
+
+4. Ejecuta el siguiente comando para instalar dependencias (si las hay, pero parece que no las hay en este caso):
+   ```bash
+   npm install
+
+node mailServiceExample.js
+
+
+Ten en cuenta que este ejemplo asume que no hay dependencias externas y que estás ejecutando el código en un entorno Node.js.
+Asegúrate de ajustar las instrucciones según las necesidades específicas de tu situación.
+
+
+
+[
+  {
+    "fromAddress": "from@example.com",
+    "toAddress": "to@example.com",
+    "subject": "Asunto",
+    "body": "Cuerpo"
+  },
+  ...
+]
+{
+  "fromAddress": "from@example.com",
+  "toAddress": "to@example.com",
+  "subject": "Asunto",
+  "body": "Cuerpo"
+}
